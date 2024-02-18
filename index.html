@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Paribahan</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- tailwind & daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="mx-14">
+                <!-- Nav Bar Section -->
+    <nav>
+        <div class="navbar bg-base-100">
+            
+            <div class="navbar-start">
+              <a class="btn btn-ghost text-4xl font-bold">E-Ticket</a>
+            </div>
+
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+
+            <div class="navbar-end">
+              <a class="btn bg-green-200 text-xl text-green-600">Bus <img src="./images/bus-icon.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+            <!-- Banner Section -->
+
+    <div class="hero rounded-2xl" style="background-image: url(./images/banner.png)">
+        <div class="hero-content text-center">
+          <div class="max-w-4xl">
+            <br><br><br><br>
+            <h1 class="text-white text-7xl font-bold">End-to-End Travel with</h1><br>
+            <h2 class="text-6xl font-bold text-green-400">Amar Paribahan</h2><br><br>
+            <p class="text-2xl text-white">We always ensure safe & sound journey</p><br><br><br>
+            <button class="btn btn-success">Buy Tickets</button><br><br><br><br>
+          </div>
+        </div>
+    </div>
+
+                    <!-- Coupon Section -->
+
+    <div>
+        <h2 class="text-4xl font-extrabold text-center my-24">Best offers for you</h2>
+    </div>                
+    <div class="lg:flex gap-10 justify-center my-10">
+        <div class="bg-yellow-500 lg:flex rounded-3xl">
+            <div class="items-left justify-center my-14 px-16">
+                <p class="text-4xl font-bold">15% OFF</p>
+                <p class="text-xl font-semibold">On your next purchase</p>
+                <p>use by March 2024</p>
+            </div>
+            <div>
+                <img src="./images/cupon-devider.png" alt="">
+            </div>
+            <div class="items-left justify-center my-20 px-5">
+                <p class="text-3xl">NEW15</p>
+                <p>Coupon Code</p>
+            </div>
+        </div>
+    
+        <div class="bg-pink-500 lg:flex rounded-3xl">
+            <div class="items-left justify-center my-14 px-16">
+                <p class="text-4xl font-bold">20% OFF</p>
+                <p class="text-xl font-semibold">On your next purchase</p>
+                <p>use by March 2024</p>
+            </div>
+            <div>
+                <img src="./images/cupon-devider.png" alt="">
+            </div>
+            <div class="items-left justify-center  my-20 px-5">
+                <p class="text-3xl">COUPLE20</p>
+                <p>Coupon Code</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center my-20">
+        <button class="btn btn-outline btn-accent">See All Offers</button>
+    </div>
+
+</header>
+    
+  <main class="rounded-3xl bg-gray-100">
+    
+    <main class="mx-14">
+        <!-- Intro Section -->
+    <section class="text-center">
+        <br><br><br><br>
+        <h2 class="text-4xl font-bold text-green-400">Amar Paribahan</h2><br>
+        <p class="text-2xl text-black">Truly Business Class</p><br><br><br>
+    </section>
+
+    <div class="bg-white lg:flex items-center justify-between rounded-3xl">
+        <div class="items-left justify-center my-14 px-16">
+            <img src="./images/bus-logo.png" alt="">
+            <h2 class="text-3xl font-semibold text-black">Amar Paribahan Seat Info.</h2><br>
+            <button class="btn btn-wide text-lg"> <img src="./images/seat-green.png" alt=""> <span class="text-pink-500">40</span> Seats Left</button>
+        </div>
+        <div>
+            <img src="./images/info-devider.png" alt="">
+        </div>
+        <div class="items-center justify-center  mr-52">
+            <img src="./images/fare.png" alt="">
+            <p class="text-3xl font-extrabold">550 Taka</p>
+            <p class="text-gray-500 font-extrabold">Per Seat</p>
+        </div>
+    </div>
+
+    <section class="my-14">
+        <div class="flex flex-col w-full lg:flex-row">
+            <!-- Ticket Selection -->
+            <div class="bg-green-100 rounded-box w-1/2">
+                <h3 class="text-2xl p-10">Select Your Seat</h3>
+                <hr>
+                <div class="flex justify-between">
+                    <div>
+                        <button class="btn btn-wide bg-green-100"><img src="./images/seat-gray.png" alt="">Available</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-wide bg-green-100"><img src="./images/seat-green.png" alt="">Selected</button>
+                    </div>
+                </div>
+                <hr><br><br>
+                <!-- seat selection -->
+                <div class="text-center">
+                    <h6><span class="mx-10 text-xl font-bold">A</span>
+                    <button class="seat btn btn-active mr-5">A1</button>
+                    <button class="seat btn btn-active mr-20">A2</button>
+                    <button class="seat btn btn-active mr-5">A3</button>
+                    <button class="seat btn btn-active">A4</button>
+                    </h6><br>
+
+                    <h6><span class="mx-10 text-xl font-bold">B</span>
+                        <button class="seat btn btn-active mr-5"> B1</button>
+                        <button class="seat btn btn-active mr-20">B2</button>
+                        <button class="seat btn btn-active mr-5">B3</button>
+                        <button class="seat btn btn-active">B4</button>
+                        </h6>
+                </div>
+            </div> 
+            <div class="divider lg:divider-horizontal"></div> 
+            <!-- seat summary -->
+            <div class="bg-green-100 rounded-box w-1/2">
+                <div>
+                    <h3 class="text-2xl p-10">Seat Summary</h3>
+                    <hr><br>
+                </div>
+
+                <div class="mx-10 bg-slate-100 rounded-xl">
+                    <div class="flex justify-evenly">
+                        <div class="my-5">
+                            <p class="text-xl">Seat <span class="text-orange-500">0</span> </p>
+                        </div>
+                        <div class="my-5">
+                            <p class="text-xl">Class</p>
+                        </div>
+                        <div class="my-5">
+                            <p class="text-xl">Price</p>
+                        </div>
+                    </div>
+                    <hr><br>
+                    <div></div>
+                    <hr><br>
+                    <div class="flex justify-between mx-20 text-xl font-semibold">
+                        <div>Total Price</div>
+                        <div>BDT<span>0</span></div>
+                    </div><br>
+                    <div class="mx-20">
+                        <label class="input input-bordered flex items-center gap-2">
+                            <input type="text" class="grow" placeholder="Have any Coupon?" />
+                            <span class="badge badge-info bg-green-300">Apply</span>
+                        </label>
+                    </div><br>
+                    <div class="flex justify-between mx-20 text-xl font-semibold">
+                        <div>Grand Total</div>
+                        <div>BDT<span>0</span></div>
+                    </div><br>
+                </div><br>
+                <!-- Customer Info -->
+                <div class="mx-12 ">
+                    <h3 class="font-semibold">Passenger Name*</h3>
+                    <input type="text" placeholder="Enter your name" class="input input-bordered w-full" />
+                    <br><br>
+                    <h3 class="font-semibold">Phone Number*</h3>
+                    <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full" />
+                    <br><br>
+                    <h3 class="font-semibold">Email ID*</h3>
+                    <input type="text" placeholder="Enter your email id" class="input input-bordered w-full" />
+                    <br><br>
+
+                    <button class="btn btn-block bg-green-300">Next</button>
+                    <br><br><br>
+                </div>
+            </div>
+          </div>
+    </section>
+
+    
+
+  </main>
+</main>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
