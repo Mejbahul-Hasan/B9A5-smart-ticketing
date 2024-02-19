@@ -3,13 +3,11 @@ const seats = document.querySelectorAll('.seat');
 let count = 1;
 let totalPrice = 550;
 let isSeatSelected = false;
-let count1 = 0;
-
 
     for(const seat of seats){
         seat.addEventListener('click', function(e){
-            if(count1 <= 3){
-                
+            if(count <= 4){
+
                 seatColor = seat.classList.add('bg-green-500');
     
                 const seatNo = e.target.innerText;
@@ -36,8 +34,6 @@ let count1 = 0;
                 document.getElementById('total-price').innerText = totalPrice;
                 document.getElementById('grand-total').innerText = totalPrice;
                 totalPrice += 550;
-                
-                count1++;
             }
             else{alert('Maximum seat booked')}
         })
