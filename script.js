@@ -37,7 +37,7 @@ if(count <= 4){
     }
 }
 else{
-    seats.removeEventListener('click', function(){});
+    alert('Maximum booking completed');
 }
 
 // coupon section
@@ -57,5 +57,11 @@ document.getElementById('btn-coupon').addEventListener('click', function(){
     else{
         alert('Please insert valid coupon');
     }
+})
+
+// modal button reload
+
+document.getElementById('btn-modal').addEventListener('click', function(){
+    window.location.reload()
 })
 
